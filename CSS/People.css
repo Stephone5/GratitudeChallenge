@@ -1,0 +1,198 @@
+
+/*-----------TGC Banner----------*/
+
+#People-form {
+  background-image: url(../Images/People-banner.jpg);
+  background-size: cover;
+  display: block;
+  -webkit-border-radius: .5em;
+  margin: 1em;
+  justify-content: center;
+  box-shadow: 0px 0px 9px 6px grey;
+}
+
+#People-title {
+  text-align: center;
+}
+
+.PeopleTitle-words {
+  color: #04B4AE;
+  text-decoration: none;
+  font-family: 'Satisfy', cursive;
+  font-size: 8em;
+  width: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+/*-----------ThereWhyWhat section-----------*/
+
+
+#WhyWhat-section {
+  background-color: white;
+  -webkit-border-radius: .5em;
+  margin: 1em;
+  box-shadow: 0px 0px 16px 0px grey;
+  text-align: center;
+  align-items: center;
+  height: auto;
+  padding: 5%;
+  margin-bottom: 10%;
+}
+
+#team {
+  height: auto;
+  width: 100%;
+  padding-top: 5%;
+}
+
+@media (max-width: 800px) {
+  #team {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.WhyWhat {
+    align-content: center;
+    text-align: center;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.WhyWhat a{
+  color: black;
+  background-color: #04B4AE;
+  font-size: 25px;
+  font-family: 'Baloo Thambi 2', cursive;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  margin: 0 auto;
+  height: 45%;
+  -webkit-border-radius: 1em;
+  overflow: hidden;
+}
+
+.WhyWhat-desc {
+  font-size: 25px;
+  font-family: 'Baloo Thambi 2', cursive;
+  width: 35vw;
+  margin-top: 15%;
+}
+
+/*-----------Testimonies section-----------*/
+
+#contact-us {
+  font-size: 40px;
+  color: #3B5998;
+}
+
+#contactus-text {
+  margin: auto;
+  width: 75%;
+  margin-bottom: 5%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  font-family: garamond;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.formbox {
+  box-shadow: 0px 0px 6px 5px gray;
+}
+
+.form-content {
+  padding-top: 2%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-left:5%;
+  width: 90%;
+  margin-bottom: 0%;
+}
+
+.mesg {
+  border-radius: 4px;
+  font-size: 15px;
+  padding-left: 10px;
+  font-family: garamond;
+  width: 80%;
+  height: 50px;
+  border: black solid .5px;
+  margin: 1.5%;
+}
+
+#messagebox {
+  border-radius: 4px;
+  font-size: 15px;
+  padding-left: 10px;
+  font-family: garamond;
+  border: none;
+  width: 80%;
+  height: 80px;
+  padding-top: 6%;
+  border: black solid .5px;
+  margin: 1.5%;
+}
+
+.sendbutton {
+    font-size: 20px;
+    font-family: garamond;
+    width: 70%;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    margin-top: 10%;
+  }
+
+  .SM-icon {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+
+  .SM-icon a:hover {
+    opacity: 0.7;
+  }
+
+  .FB-icon {
+    background: #3B5998;
+    color: white;
+  }
+
+  .IG-icon {
+    background: #3B5998;
+    color: white;
+  }
+
+/*end*/

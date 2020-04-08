@@ -1,0 +1,176 @@
+
+/*-----------TGC Banner----------*/
+
+.TGCbanner {
+    background-image: url('../Images/TopPic.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 32px;
+  }
+
+  .TGCbanner > p {
+    color: white;
+    text-align: left;
+    margin-left: 2em;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 40px;
+
+  }
+  .TGCbanner span{
+    -webkit-border-radius: .5em;
+    color: white;
+    background-color: #04B4AE;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 45px;
+  }
+
+/*-----------Orgin section-----------*/
+
+
+#Origin {
+  display: flex;
+	flex-direction: row;
+  justify-content: space-evenly;
+  height: auto;
+  margin-top: 11%;
+  margin-bottom: 11%;
+}
+
+@media (max-width: 800px) {
+  #Origin {
+    flex-direction: column;
+  }
+}
+
+.Seth {
+  height: 40vh;
+  margin: 10%;
+  -webkit-border-radius: .5em;
+}
+
+@media (min-width: 800px) {
+  .Seth {
+    border-radius: 50%;
+    height: 24vw;
+    width: 20vw;
+    margin-top: 0%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+  }
+}
+
+#OriginBox {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Origin-title {
+  font-size: 3vw;
+  font-family: 'Special Elite', cursive;
+  width: auto;
+  color: black;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .Origin-title {
+    text-align: center;
+  }
+}
+
+.Origin-sent {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Baloo Thambi 2', cursive;
+  margin: 10%;
+}
+
+@media (min-width: 800px) {
+  .Origin-sent {
+    text-align: left;
+    padding-right: 15%;
+    font-size: 25px;
+    font-family: 'Baloo Thambi 2', cursive;
+    margin: 0;
+  }
+}
+
+/*-----------Why and What section section-----------*/
+
+#WhyWhat-section {
+  background-color: white;
+  -webkit-border-radius: .5em;
+  margin: 1em;
+  box-shadow: 0px 0px 16px 0px grey;
+  text-align: center;
+  align-items: center;
+  height: auto;
+  padding: 5%;
+  margin-bottom: 10%;
+}
+
+#team {
+  height: auto;
+  width: 100%;
+  padding-top: 5%;
+}
+
+@media (max-width: 800px) {
+  #team {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.WhyWhat {
+    align-content: center;
+    text-align: center;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.WhyWhat a{
+  color: black;
+  background-color: #04B4AE;
+  font-size: 25px;
+  font-family: 'Baloo Thambi 2', cursive;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  margin: 0 auto;
+  height: 45%;
+  -webkit-border-radius: 1em;
+  overflow: hidden;
+}
+
+.WhyWhat-desc {
+  font-size: 25px;
+  font-family: 'Baloo Thambi 2', cursive;
+  width: 35vw;
+  margin-top: 15%;
+}
